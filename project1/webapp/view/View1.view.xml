@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.anusha.project1.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Text id="_IDGenText" text="This is anusha">
+    </Text>
+    </content>
+    </Page>
+</mvc:View>

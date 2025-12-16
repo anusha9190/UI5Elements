@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.anusha.project3.project3.controller.Main2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Fundamentals">
+    <content>
+    <Text id="_IDGenText" text="Hii i am mandepudi anusha pursuring b.tech final year in ciet branch of computer science and engineering now i amm doing fundamental project it based on fiori.">
+    </Text>
+    </content>
+    </Page>
+</mvc:View>

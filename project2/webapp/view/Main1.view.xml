@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.anusha.project2.project2.controller.Main1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Paragraph">
+    
+    <content>
+    <Text id="_TDGenText" text="As a SAP student, I am a Computer Science Engineering undergraduate with a strong focus on SAP Sales and Distribution (SD), AI, and business process automation. I am currently working on building a SAP sd module for Olectra Buses, where I integrate production planning with procurement and sales to reflect real-world manufacturing flows. My technical foundation spans SQL, Java, Python, OOP, data science, and system design, complemented by hands-on experience in web development and form validation. I enjoy breaking down complex SAP and technical concepts into clear, actionable explanations, often creating reusable resources like cheat sheets and templates. With a keen interest in bridging technology and business value, I aim to deliver practical solutions that enhance efficiency and integration across modules such as MM, QM, and CO-PC, while continuously learning and applying SAP best practices.
+">
+
+    </Text>
+    </content>
+    </Page>
+</mvc:View>

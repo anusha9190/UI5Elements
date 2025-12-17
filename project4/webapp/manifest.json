@@ -1,0 +1,98 @@
+{
+  "_version": "1.76.0",
+  "sap.app": {
+    "id": "com.anusha.project4.project4",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.20.0",
+      "toolsId": "4197f579-0707-47fb-8079-b273819be5b2"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.143.2",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.anusha.project4.project4.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "com.anusha.project4.project4.view",
+        "async": true,
+        "viewPath": "com.anusha.project4.project4.view"
+      },
+      "routes": [
+        {
+          "name": "RouteMain3",
+          "pattern": ":?query:",
+          "target": [
+            "TargetMain3"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetMain3": {
+          "id": "Main3",
+          "name": "Main3"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "com.anusha.project4.project4.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

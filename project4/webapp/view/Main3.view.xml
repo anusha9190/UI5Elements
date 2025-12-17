@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.anusha.project4.project4.controller.Main3"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="New Textline">
+        <content>
+            <VBox id="_IDGenVBox">
+                <Text id="_IDGenText1" text="Anusha"/> 
+                <Text id="_IDGenText2" text="CSE" class="sapUiSmallMarginTop"/>
+                <Text id="_IDGenText3" text="SAP Fiori is the modern user experience (UX) design system for SAP software, created to transform complex business processes into simple, intuitive digital experiences. Unlike the traditional, menu-heavy SAP interfaces of the past, Fiori focuses on a role-based approach, ensuring that users only see the specific applications and data necessary for their job functions. It is built on a responsive framework, meaning the interface adapts seamlessly across desktops, tablets, and smartphones, allowing for a consistent workflow regardless of the device.
+
+At its core, Fiori aims to improve productivity by following five key design principles: it is role-based, adaptive, simple, coherent, and delightful." wrapping="true" class="sapUiSmallMarginTop"/>
+                <Text id="_IDGenText4" text="SAP Fiori is the modern user experience (UX) design system for SAP software, created to transform complex business processes into simple, intuitive digital experiences. Unlike the traditional, menu-heavy SAP interfaces of the past, Fiori focuses on a role-based approach, ensuring that users only see the specific applications and data necessary for their job functions. It is built on a responsive framework, meaning the interface adapts seamlessly across desktops, tablets, and smartphones, allowing for a consistent workflow regardless of the device.
+
+At its core, Fiori aims to improve productivity by following five key design principles: it is role-based, adaptive, simple, coherent, and delightful.." wrapping="true" class="sapUiSmallMarginTop"/>
+             </VBox>
+        </content>
+    </Page>
+</mvc:View>
+
